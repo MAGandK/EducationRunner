@@ -43,7 +43,7 @@ public class ControlPlayer : MonoBehaviour
         {
             if (_triggerFinish.GetComponent<Collider>().bounds.Contains(transform.position))
             {
-                Debug.Log("Finish!");
+                Debug.Log("Finish    !");
             }
         }
     }
