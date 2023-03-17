@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ControlPlayer : MonoBehaviour
+public class Control : MonoBehaviour
 {
     public Rigidbody _rig;
 

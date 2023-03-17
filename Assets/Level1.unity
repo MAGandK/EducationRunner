@@ -987,12 +987,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1890790825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 483427bd3bbcf4e78a83617774fb62ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 987bd8e4288bf4d41b379afc45990309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _rig: {fileID: 1890790830}
   _fixedJoystick: {fileID: 1665425565}
-  _speed: 5
+  _speed: 1
   _triggerStart: {fileID: 277929484}
   _triggerFinish: {fileID: 616876914}
 --- !u!1 &2019965998
