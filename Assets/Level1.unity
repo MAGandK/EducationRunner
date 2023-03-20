@@ -878,6 +878,7 @@ GameObject:
   - component: {fileID: 1890790826}
   - component: {fileID: 1890790830}
   - component: {fileID: 1890790831}
+  - component: {fileID: 1890790832}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -993,6 +994,24 @@ MonoBehaviour:
   _rig: {fileID: 1890790830}
   _fixedJoystick: {fileID: 1665425565}
   _speed: 1
+  _direction: {x: 0, y: 0, z: 0}
+  _triggerStart: {fileID: 277929484}
+  _triggerFinish: {fileID: 616876914}
+--- !u!114 &1890790832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890790825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d142369e8be4b03a047319abaf6d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rig: {fileID: 1890790830}
+  _fixedJoystick: {fileID: 1665425565}
+  _speed: 5
   _triggerStart: {fileID: 277929484}
   _triggerFinish: {fileID: 616876914}
 --- !u!1 &2019965998

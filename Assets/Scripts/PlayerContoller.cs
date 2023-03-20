@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Control : MonoBehaviour
+public class PlayerContoller : MonoBehaviour
 {
     public Rigidbody _rig;
 
@@ -43,8 +43,9 @@ public class Control : MonoBehaviour
         {
             if (_triggerFinish.GetComponent<Collider>().bounds.Contains(transform.position))
             {
-                Debug.Log("Finish    !");
+                Debug.Log("Finish!");
             }
         }
     }
+
 }
