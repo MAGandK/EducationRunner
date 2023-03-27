@@ -5,11 +5,10 @@ using UnityEngine;
 public class TriggerFinish : MonoBehaviour
 {
 
+
     private void OnTriggerEnter(Collider other)
     {
-        PlayerController playerController = other.GetComponent<PlayerController>();
-
-        if (playerController != null)
+        if (other.TryGetComponent(out PlayerController playerController))
         {
             Debug.Log("Finish");
         }

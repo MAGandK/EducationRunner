@@ -4,27 +4,22 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public Rigidbody _rig;
-
-    public FixedJoystick _fixedJoystick;
+    [SerializeField]
+    private FixedJoystick _fixedJoystick;
 
     [SerializeField]
-    public float _speed = 1f;
+    private float _speed = 1f;
 
     private Vector3 _direction;
 
-    public GameObject _triggerStart;
+    private float _Horizontal; // ограничение по ширине от -0.5 до 0.5
+
+    private float _MoveLong; // ограничение по длине -8, 2
 
     // Start is called before the first frame update
     void Start()
     {
-        if (_triggerStart != null && _triggerStart.GetComponent<Collider>() != null)
-        {
-            if (_triggerStart.GetComponent<Collider>().bounds.Contains(transform.position))
-            {
-                Debug.Log("GO!");
-            }
-        }
+        
     }
 
     // Update is called once per frame
@@ -33,11 +28,15 @@ public class PlayerController : MonoBehaviour
         MovePlayer();
     }
 
-    private void MovePlayer()
+    public void MovePlayer()
     {
         _direction = new Vector3(_fixedJoystick.Horizontal, 0, _fixedJoystick.Vertical);
 
-        Vector3 newPosition = transform.position + _direction * _speed * Time.deltaTime;
+        _MoveLong = Mathf.Clamp(transform.position.x + _direction.x * _speed * Time.deltaTime, -8f, 2f); 
+
+        _Horizontal = Mathf.Clamp(transform.position.z + _direction.z * _speed * Time.deltaTime, -0.5f, 0.5f); 
+
+        Vector3 newPosition = new Vector3(_MoveLong, transform.position.y, _Horizontal);
 
         transform.position = newPosition;
     }
