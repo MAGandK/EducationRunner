@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class TriggerFinish : MonoBehaviour
 {
-
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out PlayerController playerController))
         {
+            playerController.SetFinished();
+
             Debug.Log("Finish");
         }
     }

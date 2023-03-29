@@ -12,14 +12,16 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 _direction;
 
-    private float _Horizontal; // ограничение по ширине от -0.5 до 0.5
+    private float _moveX; // ограничение по ширине от -0.4 до 0.4
 
-    private float _MoveLong; // ограничение по длине -8, 2
+    private float _moveZ;
+
+    private bool _finish = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -30,14 +32,24 @@ public class PlayerController : MonoBehaviour
 
     public void MovePlayer()
     {
+        if (_finish)
+        {
+            return;
+        }
+
         _direction = new Vector3(_fixedJoystick.Horizontal, 0, _fixedJoystick.Vertical);
 
-        _MoveLong = Mathf.Clamp(transform.position.x + _direction.x * _speed * Time.deltaTime, -8f, 2f); 
+        _moveX = Mathf.Clamp(transform.position.x + _direction.x * _speed * Time.deltaTime, -0.4f, 0.4f);
 
-        _Horizontal = Mathf.Clamp(transform.position.z + _direction.z * _speed * Time.deltaTime, -0.5f, 0.5f); 
+        _moveZ = (transform.position.z + _direction.z * _speed * Time.deltaTime);
 
-        Vector3 newPosition = new Vector3(_MoveLong, transform.position.y, _Horizontal);
+        Vector3 newPosition = new Vector3(_moveX, transform.position.y, _moveZ);
 
         transform.position = newPosition;
     }
-}
+
+    public void SetFinished()
+    {
+        _finish = true;
+    }
+} 
