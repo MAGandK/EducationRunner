@@ -16,23 +16,32 @@ public class PlayerController : MonoBehaviour
 
     private float _moveZ;
 
-    private bool _finish = false;
+    private bool _isFinish = false;
+
+    private bool _isStarted = false;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        _isStarted = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)// Если было сделано касание на экране, запускаем игру
+        {
+            StartGame();
+
+            Debug.Log("Go");
+        }
+
         MovePlayer();
     }
 
     public void MovePlayer()
     {
-        if (_finish)
+        if (_isFinish)
         {
             return;
         }
@@ -50,6 +59,11 @@ public class PlayerController : MonoBehaviour
 
     public void SetFinished()
     {
-        _finish = true;
+        _isFinish = true;
     }
-} 
+
+    private void StartGame()
+    {
+        _isStarted = true;
+    }
+}
