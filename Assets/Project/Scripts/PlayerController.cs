@@ -32,8 +32,6 @@ public class PlayerController : MonoBehaviour
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)// Если было сделано касание на экране, запускаем игру
         {
             StartGame();
-
-            Debug.Log("Go");
         }
 
         MovePlayer();
