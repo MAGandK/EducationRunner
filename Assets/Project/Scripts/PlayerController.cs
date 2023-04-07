@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,6 +20,11 @@ public class PlayerController : MonoBehaviour
     private bool _isFinish = false;
 
     private bool _isStarted = false;
+
+    private int _coinCount = 0;
+
+    [SerializeField]
+    private Text _coinText;
 
     // Start is called before the first frame update
     void Start()
@@ -63,5 +69,12 @@ public class PlayerController : MonoBehaviour
     private void StartGame()
     {
         _isStarted = true;
+    }
+
+    public void CollectCoin()
+    {
+        _coinCount++;
+
+        _coinText.text = $"{_coinCount}";
     }
 }
