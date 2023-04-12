@@ -27,6 +27,12 @@ public class PlayerController : MonoBehaviour
     private int _coinCount = 0;
 
     [SerializeField]
+    private Rigidbody _rigidbody;
+
+    [SerializeField]
+    private Vector3 _jumpForce;
+
+    [SerializeField]
     private Text _coinText;
 
     // Start is called before the first frame update
@@ -66,6 +72,13 @@ public class PlayerController : MonoBehaviour
         Vector3 newPosition = new Vector3(_moveX, transform.position.y, _moveZ);
 
         transform.position = newPosition;
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Jump();
+        }
+
+        _rigidbody.MovePosition(newPosition);
     }
 
     public void SetFinished()
@@ -83,5 +96,10 @@ public class PlayerController : MonoBehaviour
         _coinCount++;
 
         _coinText.text = $"{_coinCount}";
+    }
+
+    public void Jump()
+    {
+        _rigidbody.AddForce(_jumpForce, ForceMode.Impulse);
     }
 }
