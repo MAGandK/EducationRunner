@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     private float _speed = 1f;
 
     [SerializeField]
-    private float _forwardSpeed = 0f;
+    private float _forwardSpeed = 0f; // скорость вперед
 
     private Vector3 _direction;
 
@@ -20,9 +20,11 @@ public class PlayerController : MonoBehaviour
 
     private float _moveZ;
 
-    private bool _isFinish = false;
+    private bool _isFinished = false;
 
     private bool _isStarted = false;
+
+    private bool _isDaed = false;
 
     private int _coinCount = 0;
 
@@ -35,6 +37,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Text _coinText;
 
+    [SerializeField]
+    private UIController _uIController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,10 +48,8 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-       // if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)// Если было сделано касание на экране, запускаем игру
-       
-        if (Input.GetMouseButtonDown(0))// Если было сделано касание на экране, запускаем игру
+    {    
+        if (Input.GetMouseButtonDown(0) && !_isStarted)// Если было сделано касание на экране, запускаем игру
         {
             StartGame();
         }
@@ -56,8 +59,8 @@ public class PlayerController : MonoBehaviour
 
     public void MovePlayer()
     {
-        //&& ||
-        if (_isFinish || !_isStarted)
+
+        if (_isFinished || !_isStarted || _isDaed)
         {
             return;
         }
@@ -66,12 +69,9 @@ public class PlayerController : MonoBehaviour
         
         _moveX = Mathf.Clamp(transform.position.x + _direction.x * _speed * Time.deltaTime, -0.4f, 0.4f);
 
-        //_moveZ = (transform.position.z + _direction.z * _speed * Time.deltaTime);
         _moveZ = (transform.position.z + _forwardSpeed * Time.deltaTime);
 
         Vector3 newPosition = new Vector3(_moveX, transform.position.y, _moveZ);
-
-        transform.position = newPosition;
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -83,12 +83,16 @@ public class PlayerController : MonoBehaviour
 
     public void SetFinished()
     {
-        _isFinish = true;
+        _isFinished = true;
+
+        _uIController.ToggleFinishWindow(true);
     }
 
     private void StartGame()
     {
         _isStarted = true;
+
+        _uIController.ToggleMainWindow(true);
     }
 
     public void CollectCoin()
@@ -102,4 +106,13 @@ public class PlayerController : MonoBehaviour
     {
         _rigidbody.AddForce(_jumpForce, ForceMode.Impulse);
     }
+
+    public void Die()
+    {
+        _isDaed = true;
+
+        _uIController.ToogleFailWindow(true);
+    }
+
+    
 }
