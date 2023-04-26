@@ -40,14 +40,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private UIController _uIController;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         _isStarted = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {    
         if (Input.GetMouseButtonDown(0) && !_isStarted)// Если было сделано касание на экране, запускаем игру
         {
