@@ -30,13 +30,10 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private Rigidbody _rigidbody;
-
     [SerializeField]
     private Vector3 _jumpForce;
-
     [SerializeField]
     private Text _coinText;
-
     [SerializeField]
     private UIController _uIController;
 

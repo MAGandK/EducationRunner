@@ -15,7 +15,7 @@ public class MoveCamera : MonoBehaviour
 
     private Vector3 velocity = Vector3.zero;
 
-    private void Update()
+    private void FixeUpdate()
     {
         Vector3 targetPosition = target.position + offset;
 
