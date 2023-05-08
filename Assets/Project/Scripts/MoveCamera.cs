@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveCamera : MonoBehaviour
@@ -14,8 +12,8 @@ public class MoveCamera : MonoBehaviour
     private float smoothTime = 0.3F;
 
     private Vector3 velocity = Vector3.zero;
-
-    private void FixeUpdate()
+    
+    private void FixedUpdate()
     {
         Vector3 targetPosition = target.position + offset;
 
