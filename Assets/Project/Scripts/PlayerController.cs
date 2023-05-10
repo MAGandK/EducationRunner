@@ -5,29 +5,15 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    private readonly string RunAnimationKey = "IsRun";
+    private readonly string DiedAnimationKey = "Died";
+
     [SerializeField]
     private FixedJoystick _fixedJoystick;
-
     [SerializeField]
     private float _speed = 1f;
-
     [SerializeField]
     private float _forwardSpeed = 0f; // скорость вперед
-
-    private Vector3 _direction;
-
-    private float _moveX; // ограничение по ширине от -0.4 до 0.4
-
-    private float _moveZ;
-
-    private bool _isFinished = false;
-
-    private bool _isStarted = false;
-
-    private bool _isDaed = false;
-
-    private int _coinCount = 0;
-
     [SerializeField]
     private Rigidbody _rigidbody;
     [SerializeField]
@@ -36,6 +22,16 @@ public class PlayerController : MonoBehaviour
     private Text _coinText;
     [SerializeField]
     private UIController _uIController;
+    [SerializeField]
+    private Animator _animator;
+
+    private float _moveX; // ограничение по ширине от -0.4 до 0.4
+    private float _moveZ;
+    private bool _isFinished = false;
+    private bool _isStarted = false;
+    private bool _isDaed = false;
+
+    private Vector3 _direction;
 
     private void Start()
     {
@@ -88,13 +84,8 @@ public class PlayerController : MonoBehaviour
         _isStarted = true;
 
         _uIController.ToggleMainWindow(true);
-    }
 
-    public void CollectCoin()
-    {
-        _coinCount++;
-
-        _coinText.text = $"{_coinCount}";
+        _animator.SetBool(RunAnimationKey, true);
     }
 
     public void Jump()
@@ -107,6 +98,8 @@ public class PlayerController : MonoBehaviour
         _isDaed = true;
 
         _uIController.ToogleFailWindow(true);
+
+        _animator.SetTrigger(DiedAnimationKey);
     }
 
     
