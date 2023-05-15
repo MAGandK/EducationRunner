@@ -19,8 +19,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Vector3 _jumpForce;
     [SerializeField]
-    private Text _coinText;
-    [SerializeField]
     private UIController _uIController;
     [SerializeField]
     private Animator _animator;
@@ -58,7 +56,7 @@ public class PlayerController : MonoBehaviour
 
         _direction = new Vector3(_fixedJoystick.Horizontal, 0, _fixedJoystick.Vertical);
         
-        _moveX = Mathf.Clamp(transform.position.x + _direction.x * _speed * Time.deltaTime, -0.4f, 0.4f);
+        _moveX = Mathf.Clamp(transform.position.x + _direction.x * _speed * Time.deltaTime, -3.2f, 3.2f);
 
         _moveZ = (transform.position.z + _forwardSpeed * Time.deltaTime);
 

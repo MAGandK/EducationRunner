@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class UIController : MonoBehaviour
 {
     [SerializeField]
@@ -29,6 +30,7 @@ public class UIController : MonoBehaviour
         _restartButton.onClick.AddListener(OnRestartButtonClick);
 
         _nextLevelButton.onClick.AddListener(OnNextButtonClick);
+
     }
 
     public void ToggleMainWindow(bool isActive)
@@ -56,3 +58,4 @@ public class UIController : MonoBehaviour
         _sceneManagement.LoadNextLevel();
     }
 }
+

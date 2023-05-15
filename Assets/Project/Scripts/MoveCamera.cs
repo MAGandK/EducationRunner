@@ -9,7 +9,7 @@ public class MoveCamera : MonoBehaviour
     private Vector3 offset = Vector3.zero;
 
     [SerializeField]
-    private float smoothTime = 0.3F;
+    private float smoothTime = 0.1f;
 
     private Vector3 velocity = Vector3.zero;
     
