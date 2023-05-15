@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571374, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -703,6 +703,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 61771ea2b0a24ad418f1b7de544252af, type: 3}
   m_PrefabInstance: {fileID: 1092895523}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1139248710 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1714521004303682537, guid: d2a05edd7ce17498fa70807f6ea22486, type: 3}
+  m_PrefabInstance: {fileID: 2824308571877254746}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46eb1974486df47458ff77e87f15c033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1143789270 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6902272623126430018, guid: d2a05edd7ce17498fa70807f6ea22486, type: 3}
@@ -1405,6 +1416,8 @@ MonoBehaviour:
   _jumpForce: {x: 0, y: 2, z: 0}
   _uIController: {fileID: 1204841692}
   _animator: {fileID: 369243923}
+  _joystick: {fileID: 1139248710}
+  _swipeSensivity: 0.338
 --- !u!1 &2019965998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,7 +1709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1679068526756288286, guid: d2a05edd7ce17498fa70807f6ea22486, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1712516495856390279, guid: d2a05edd7ce17498fa70807f6ea22486, type: 3}
       propertyPath: m_LocalScale.y
@@ -2040,7 +2053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4942974975167383337, guid: d2a05edd7ce17498fa70807f6ea22486, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5032079555442129999, guid: d2a05edd7ce17498fa70807f6ea22486, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2504,6 +2517,7 @@ MonoBehaviour:
   progressBar: {fileID: 1143789270}
   player: {fileID: 1890790829}
   levelEnd: {fileID: 1797369644}
+  _offsetZ: 3
 --- !u!1001 &2914909871630373730
 PrefabInstance:
   m_ObjectHideFlags: 0

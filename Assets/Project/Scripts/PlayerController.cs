@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,15 +19,17 @@ public class PlayerController : MonoBehaviour
     private UIController _uIController;
     [SerializeField]
     private Animator _animator;
-
+    [SerializeField]
+    private Joystick _joystick;
+    [SerializeField, Range(0f,1f)]
+    private float _swipeSensivity;
+    
     private float _moveX; // ограничение по ширине от -0.4 до 0.4
     private float _moveZ;
     private bool _isFinished = false;
     private bool _isStarted = false;
-    private bool _isDaed = false;
-
-    private Vector3 _direction;
-
+    private bool _isDied = false;
+    
     private void Start()
     {
         _isStarted = false;
@@ -48,19 +47,18 @@ public class PlayerController : MonoBehaviour
 
     public void MovePlayer()
     {
-
-        if (_isFinished || !_isStarted || _isDaed)
+        if (_isFinished || !_isStarted || _isDied)
         {
             return;
         }
-
-        _direction = new Vector3(_fixedJoystick.Horizontal, 0, _fixedJoystick.Vertical);
         
-        _moveX = Mathf.Clamp(transform.position.x + _direction.x * _speed * Time.deltaTime, -3.2f, 3.2f);
+        var position = transform.position;
+        var expectedMoveX = position.x + (_joystick.EventDataDelta.x * _swipeSensivity) * (_speed * Time.deltaTime);
+        
+        _moveX = Mathf.Clamp(expectedMoveX, -3.2f, 3.2f);
+        _moveZ = position.z + _forwardSpeed * Time.deltaTime;
 
-        _moveZ = (transform.position.z + _forwardSpeed * Time.deltaTime);
-
-        Vector3 newPosition = new Vector3(_moveX, transform.position.y, _moveZ);
+        Vector3 newPosition = new Vector3(_moveX, position.y, _moveZ);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -93,7 +91,7 @@ public class PlayerController : MonoBehaviour
 
     public void Die()
     {
-        _isDaed = true;
+        _isDied = true;
 
         _uIController.ToogleFailWindow(true);
 
