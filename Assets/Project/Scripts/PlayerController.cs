@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     private readonly string RunAnimationKey = "IsRun";
     private readonly string DiedAnimationKey = "Died";
+    private readonly string DancedAnimationKey = "Danced";
 
     [SerializeField]
     private FixedJoystick _fixedJoystick;
@@ -73,6 +74,8 @@ public class PlayerController : MonoBehaviour
         _isFinished = true;
 
         _uIController.ToggleFinishWindow(true);
+
+        _animator.SetTrigger(DancedAnimationKey);
     }
 
     private void StartGame()
