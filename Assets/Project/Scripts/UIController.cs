@@ -6,56 +6,26 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject _mainWindow;
-    [SerializeField]
-    private GameObject _finishWindow;
-    [SerializeField]
-    private GameObject _failWindow;
-    [SerializeField]
-    private Button _restartButton;
-    [SerializeField]
-    private Button _nextLevelButton;
-    [SerializeField]
-    private SceneManagement _sceneManagement;
+    private WindowBace[] _windows;
 
-    private void Start()
+    private void Awake()
     {
-        ToggleMainWindow(false);
-
-        ToggleFinishWindow(false);
-
-        ToogleFailWindow(false);
-
-        _restartButton.onClick.AddListener(OnRestartButtonClick);
-
-        _nextLevelButton.onClick.AddListener(OnNextButtonClick);
-
+        _windows = GetComponentsInChildren<WindowBace>(true);
     }
 
-    public void ToggleMainWindow(bool isActive)
+    public void ShowWindow(int index)
     {
-        _mainWindow.SetActive(isActive);
-    }
-
-    public void ToggleFinishWindow(bool isActive)
-    {
-        _finishWindow.SetActive(isActive);
-    }
-
-    public void ToogleFailWindow(bool isActive)
-    {
-        _failWindow.SetActive(isActive);
-    }
-
-    private void OnRestartButtonClick()
-    {
-        _sceneManagement.ReastartLevel();
-    }
-
-    private void OnNextButtonClick()
-    {
-        _sceneManagement.LoadNextLevel();
+        for (int i = 0; i < _windows.Length; i++)
+        {
+            if (_windows[i].Index == index)
+            {
+                _windows[i].Show();
+            }
+            else
+            {
+                _windows[i].Hide();
+            }
+        }
     }
 }
 

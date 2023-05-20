@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour
     private readonly string DiedAnimationKey = "Died";
     private readonly string DancedAnimationKey = "Danced";
 
-    [SerializeField]
-    private FixedJoystick _fixedJoystick;
+    //[SerializeField]
+    //private FixedJoystick _fixedJoystick;
     [SerializeField]
     private float _speed = 1f;
     [SerializeField]
@@ -73,7 +73,9 @@ public class PlayerController : MonoBehaviour
     {
         _isFinished = true;
 
-        _uIController.ToggleFinishWindow(true);
+        //_uIController.ToggleFinishWindow(true);
+
+        _uIController.ShowWindow(2);
 
         _animator.SetTrigger(DancedAnimationKey);
     }
@@ -82,8 +84,10 @@ public class PlayerController : MonoBehaviour
     {
         _isStarted = true;
 
-        _uIController.ToggleMainWindow(true);
+        // _uIController.ToggleMainWindow(true);
 
+
+        _uIController.ShowWindow(0);
         _animator.SetBool(RunAnimationKey, true);
     }
 
@@ -96,7 +100,9 @@ public class PlayerController : MonoBehaviour
     {
         _isDied = true;
 
-        _uIController.ToogleFailWindow(true);
+        //_uIController.ToogleFailWindow(true);
+
+        _uIController.ShowWindow(2);
 
         _animator.SetTrigger(DiedAnimationKey);
     }
