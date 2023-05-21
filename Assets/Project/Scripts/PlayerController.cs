@@ -102,7 +102,7 @@ public class PlayerController : MonoBehaviour
 
         //_uIController.ToogleFailWindow(true);
 
-        _uIController.ShowWindow(2);
+        _uIController.ShowWindow(1);
 
         _animator.SetTrigger(DiedAnimationKey);
     }
