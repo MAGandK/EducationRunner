@@ -11,11 +11,11 @@ public class FinishWindow : WindowBace
     [SerializeField]
     private SceneManagement _sceneManagement;
 
-    public override int Index
+    public override WindowType Type
     {
         get
         {
-            return 2;
+            return WindowType.FinishWindow;
         }
     }
 

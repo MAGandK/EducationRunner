@@ -11,11 +11,11 @@ public class FailWindow : WindowBace
     [SerializeField]
     private SceneManagement _sceneManagement;
 
-    public override int Index
+    public override WindowType Type
     {
         get
         {
-            return 1;
+            return WindowType.FailWindow;
         }
     }
 

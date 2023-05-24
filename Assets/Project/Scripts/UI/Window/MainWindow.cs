@@ -24,11 +24,11 @@ public class MainWindow : WindowBace
     private float endDistance;
     private Vector3 _endPositionOffset;
 
-    public override int Index
+    public override WindowType Type
     {
         get
         {
-            return 0;
+            return WindowType.MainWindow;
         }
     }
 

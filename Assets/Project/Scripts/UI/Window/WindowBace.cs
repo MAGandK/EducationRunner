@@ -12,9 +12,9 @@ public abstract class WindowBace : MonoBehaviour
         }
     }
 
-    public abstract int Index
+    public abstract WindowType Type
     {
-        get;
+        get ;
     } 
 
     public virtual void Show()
