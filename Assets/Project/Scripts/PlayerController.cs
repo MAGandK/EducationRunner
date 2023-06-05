@@ -6,8 +6,6 @@ public class PlayerController : MonoBehaviour
     private readonly string DiedAnimationKey = "Died";
     private readonly string DancedAnimationKey = "Danced";
 
-    //[SerializeField]
-    //private FixedJoystick _fixedJoystick;
     [SerializeField]
     private float _speed = 1f;
     [SerializeField]
@@ -24,12 +22,19 @@ public class PlayerController : MonoBehaviour
     private Joystick _joystick;
     [SerializeField, Range(0f,1f)]
     private float _swipeSensivity;
+    [SerializeField]
+    private int _hpPlayer = 5;
     
     private float _moveX; // ограничение по ширине от -0.4 до 0.4
     private float _moveZ;
     private bool _isFinished = false;
     private bool _isStarted = false;
     private bool _isDied = false;
+
+    public bool IsDaed
+    {
+        get => _isDied;
+    }
     
     private void Start()
     {
@@ -73,9 +78,7 @@ public class PlayerController : MonoBehaviour
     {
         _isFinished = true;
 
-        //_uIController.ToggleFinishWindow(true);
-
-        _uIController.ShowWindow(2);
+        _uIController.ShowWindow(WindowType.FinishWindow);
 
         _animator.SetTrigger(DancedAnimationKey);
     }
@@ -84,10 +87,8 @@ public class PlayerController : MonoBehaviour
     {
         _isStarted = true;
 
-        // _uIController.ToggleMainWindow(true);
+        _uIController.ShowWindow(WindowType.MainWindow);
 
-
-        _uIController.ShowWindow(0);
         _animator.SetBool(RunAnimationKey, true);
     }
 
@@ -100,12 +101,26 @@ public class PlayerController : MonoBehaviour
     {
         _isDied = true;
 
-        //_uIController.ToogleFailWindow(true);
-
-        _uIController.ShowWindow(1);
+        _uIController.ShowWindow(WindowType.FailWindow);
 
         _animator.SetTrigger(DiedAnimationKey);
     }
 
-    
+    public void Damage()
+    {
+        _isDied = false;
+
+        _hpPlayer --;
+
+        Debug.Log(_hpPlayer);
+
+        if (_hpPlayer <=0)
+        {
+            Die();
+        }
+
+    }
+
+
+
 }
