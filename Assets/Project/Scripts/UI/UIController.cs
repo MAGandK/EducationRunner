@@ -15,6 +15,11 @@ public class UIController : MonoBehaviour
         _windows = GetComponentsInChildren<WindowBace>(true);
     }
 
+    private void Start()
+    {
+        ShowWindow(WindowType.MainWindow);
+    }
+
     public void ShowWindow(WindowType type)
     {
         for (int i = 0; i < _windows.Length; i++)

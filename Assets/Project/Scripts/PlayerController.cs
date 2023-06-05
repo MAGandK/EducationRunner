@@ -30,6 +30,11 @@ public class PlayerController : MonoBehaviour
     private bool _isFinished = false;
     private bool _isStarted = false;
     private bool _isDied = false;
+
+    public bool IsDaed
+    {
+        get => _isDied;
+    }
     
     private void Start()
     {
