@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     private Joystick _joystick;
     [SerializeField, Range(0f,1f)]
     private float _swipeSensivity;
+    [SerializeField]
+    private int _hpPlayer = 5;
     
     private float _moveX; // ограничение по ширине от -0.4 до 0.4
     private float _moveZ;
@@ -99,5 +101,21 @@ public class PlayerController : MonoBehaviour
         _animator.SetTrigger(DiedAnimationKey);
     }
 
-    
+    public void Damage()
+    {
+        _isDied = false;
+
+        _hpPlayer --;
+
+        Debug.Log(_hpPlayer);
+
+        if (_hpPlayer <=0)
+        {
+            Die();
+        }
+
+    }
+
+
+
 }
