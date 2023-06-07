@@ -73,9 +73,4 @@ public class CoroutineSaw : MonoBehaviour
     {
         Gizmos.DrawWireSphere(_targetPositionSaw.position, radius: 1);
     }
-
-    private void OnDrawGizmos1()
-    {
-        Gizmos.DrawWireSphere(_targetPositionSaw.position, radius: 1);
-    }
 }

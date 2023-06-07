@@ -54,9 +54,5 @@ public class MainWindow : WindowBace
         _coinCount++;
 
         _scoreText.text = _coinCount.ToString();
-    }
-
-    
-
-    
+    }  
 }

@@ -26,6 +26,4 @@ public abstract class WindowBace : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
-
-
 }
