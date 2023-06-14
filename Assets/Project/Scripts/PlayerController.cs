@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
     private float _swipeSensivity;
     [SerializeField]
     private int _hpPlayer = 5;
+    [SerializeField]
+    private GameObject effectDaied;
     
     private float _moveX; // ограничение по ширине от -0.4 до 0.4
     private float _moveZ;

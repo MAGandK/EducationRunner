@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class TriggerFinish : MonoBehaviour
 {
+    [SerializeField]
+    private LevelSettings _levelSettings;
+
     public static string LevelIndex = "Level";
 
     private void OnTriggerEnter(Collider other)
@@ -20,9 +25,14 @@ public class TriggerFinish : MonoBehaviour
 
     private void OnFinished()
     {
-        var index = PlayerPrefs.GetInt(LevelIndex);
+        var levelIndex = PlayerPrefs.GetInt(StartUp.LevelKey);
 
-        PlayerPrefs.SetInt(LevelIndex, ++index); //++index, который увеличит переменную
-                                                 //index на 1 и вернет ее новое значение
+        levelIndex++;
+
+        PlayerPrefs.SetInt(StartUp.LevelKey, levelIndex);
+
+        var sceneName = _levelSettings.GetSceneName(levelIndex);
+
+        SceneManager.LoadScene(sceneName);
     }
 }

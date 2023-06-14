@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
 {
-    public void ReastartLevel() 
+
+    public void ReastartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
@@ -16,4 +17,5 @@ public class SceneManagement : MonoBehaviour
 
         SceneManager.LoadScene(index);
     }
+
 }
