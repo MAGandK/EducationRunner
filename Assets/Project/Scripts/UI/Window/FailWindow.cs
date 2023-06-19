@@ -27,6 +27,5 @@ public class FailWindow : WindowBace
     private void OnRestartButtonClick()
     {
         _sceneManagement.ReastartLevel();
-
     }
 }

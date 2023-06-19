@@ -26,6 +26,6 @@ public class FinishWindow : WindowBace
 
     private void OnNextButtonClick()
     {
-        _sceneManagement.LoadNextLevel();
+       _sceneManagement.LoadNextLevel();
     }
 }

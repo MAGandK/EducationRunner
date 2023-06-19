@@ -17,7 +17,7 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoint
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("Down");
+        //Debug.Log("Down");
     }
 
     public void OnPointerUp(PointerEventData eventData)

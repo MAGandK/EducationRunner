@@ -6,9 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class TriggerFinish : MonoBehaviour
 {
-    [SerializeField]
-    private LevelSettings _levelSettings;
-
     public static string LevelIndex = "Level";
 
     private void OnTriggerEnter(Collider other)
@@ -31,7 +28,7 @@ public class TriggerFinish : MonoBehaviour
 
         PlayerPrefs.SetInt(StartUp.LevelKey, levelIndex);
 
-        var sceneName = _levelSettings.GetSceneName(levelIndex);
+        var sceneName = SettingManager.Instance.LevelSettings.GetSceneName(levelIndex);
 
         SceneManager.LoadScene(sceneName);
     }
