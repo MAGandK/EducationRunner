@@ -32,5 +32,9 @@ public class LevelSettings : ScriptableObject
 
         return sceneName;
     }
-   
+
+    internal object GetSceneName(object levelIndex)
+    {
+        throw new System.NotImplementedException();
+    }
 }

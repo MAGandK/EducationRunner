@@ -4,6 +4,8 @@ using UnityEngine.EventSystems;
 
 public class Joystick : MonoBehaviour, IDragHandler, IPointerDownHandler, IPointerUpHandler
 {
+    public static event Action Click = delegate { };
+
     public Vector2 EventDataDelta
     {
         get;
@@ -17,7 +19,8 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerDownHandler, IPoint
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        //Debug.Log("Down");
+        Click();
+        EventDataDelta = eventData.delta;
     }
 
     public void OnPointerUp(PointerEventData eventData)

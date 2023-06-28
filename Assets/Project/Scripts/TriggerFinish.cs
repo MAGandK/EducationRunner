@@ -28,8 +28,8 @@ public class TriggerFinish : MonoBehaviour
 
         PlayerPrefs.SetInt(StartUp.LevelKey, levelIndex);
 
-        var sceneName = SettingManager.Instance.LevelSettings.GetSceneName(levelIndex);
+        //var sceneName = SettingManager.Instance.LevelSettings.GetSceneName(levelIndex);
 
-        SceneManager.LoadScene(sceneName);
+        //SceneManager.LoadScene(sceneName);
     }
 }

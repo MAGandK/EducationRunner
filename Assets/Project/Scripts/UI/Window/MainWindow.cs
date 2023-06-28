@@ -17,6 +17,8 @@ public class MainWindow : WindowBace
     private float _offsetZ;
     [SerializeField]
     public TextMeshProUGUI _scoreText;
+    [SerializeField]
+    public GameObject _tabText;
 
 
     private int _coinCount = 0;
@@ -32,9 +34,42 @@ public class MainWindow : WindowBace
         }
     }
 
+    private void OnEnable()
+    {
+        WallQTE.WallQTEs += WallQTE_WalQTEs;
+        ObstacleQTE.ObstacleQTEs += ObstacleQTE_ObstacleQTEs;
+        Joystick.Click += Joystick_Click;
+    }
+
+    private void OnDisable()
+    {
+        WallQTE.WallQTEs -= WallQTE_WalQTEs;
+        ObstacleQTE.ObstacleQTEs -= ObstacleQTE_ObstacleQTEs;
+        Joystick.Click -= Joystick_Click;
+    }
+
+    private void WallQTE_WalQTEs()
+    {
+        _tabText.SetActive(true);
+    }
+
+    private void ObstacleQTE_ObstacleQTEs()
+    {
+        _tabText.SetActive(true);
+    }
+
+    private void Joystick_Click()
+    {
+        if (_tabText.activeSelf)
+        {
+            _tabText.SetActive(false);
+        }
+    }
+
 
     private void Start()
     {
+        _tabText.SetActive(false);
         _endPositionOffset = new Vector3(0, 0, _offsetZ);
         startDistance = Vector3.Distance(player.position, levelEnd.position - _endPositionOffset);
         endDistance = 0f;
@@ -47,7 +82,6 @@ public class MainWindow : WindowBace
         float progress = 1f - (endDistance / startDistance);
         progressBar.value = progress;
     }
-
 
     public void OnCoinCollected()
     {

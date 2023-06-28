@@ -37,7 +37,22 @@ public class PlayerController : MonoBehaviour
     {
         get => _isDied;
     }
-    
+
+    private void OnEnable()
+    {
+        WallQTE.WallQTEs += WallQTE_WallQTEs;
+    }
+
+    private void OnDisable()
+    {
+        WallQTE.WallQTEs -= WallQTE_WallQTEs;
+    }
+
+    private void WallQTE_WallQTEs()
+    {
+
+    }
+
     private void Start()
     {
         _isStarted = false;

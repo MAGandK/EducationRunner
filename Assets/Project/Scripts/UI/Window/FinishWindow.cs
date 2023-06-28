@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class FinishWindow : WindowBace
 {
@@ -10,6 +11,8 @@ public class FinishWindow : WindowBace
 
     [SerializeField]
     private SceneManagement _sceneManagement;
+
+    private int levelIndex;
 
     public override WindowType Type
     {
@@ -27,5 +30,9 @@ public class FinishWindow : WindowBace
     private void OnNextButtonClick()
     {
        _sceneManagement.LoadNextLevel();
+
+        var sceneName = SettingManager.Instance.LevelSettings.GetSceneName(levelIndex);
+
+        SceneManager.LoadScene(sceneName);
     }
 }
