@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,19 +14,48 @@ public class Coroutine : MonoBehaviour
     [SerializeField]
     private Transform _targetPos; //цель позиции
 
+    [SerializeField]
+    private float _rotetionSpeed;
+
     private Vector3 _startPosition;
 
     [SerializeField]
-    private float _rotetionSpeed;
+    private ObstacleCrush _obstacleCrush;
+
+    private IEnumerator enumerator;
+
+    private void OnEnable()
+    {
+        if (_obstacleCrush != null)
+        {
+            _obstacleCrush.ObstacleCrushs += ObstacleCrush_Push;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (_obstacleCrush != null)
+        {
+            _obstacleCrush.ObstacleCrushs -= ObstacleCrush_Push;
+        }
+    }
+
+    private void ObstacleCrush_Push()
+    {
+        StopCoroutine(enumerator);
+    }
+
 
     private void Start()
     {
         _startPosition = _object.transform.position;
 
-        StartCoroutine(MoveCor(_object, _targetPos.position, _time));
+        enumerator = MoveCor(transform, _targetPos.position, _time);
+
+        StartCoroutine(enumerator);
+
 
     }
-
 
     private IEnumerator MoveCor(Transform obj, Vector3 targetPosition, float executionTime) //время выполнения
     {

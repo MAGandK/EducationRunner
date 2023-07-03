@@ -6,7 +6,7 @@ using UnityEngine;
 public class ObstacleKillCollider : MonoBehaviour
 {
     [SerializeField]
-    private Obstacle_crush _obstacle;
+    private ObstacleCrush _obstacle;
 
     private Collider _collider;
 

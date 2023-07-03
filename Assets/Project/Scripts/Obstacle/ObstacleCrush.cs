@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Obstacle_crush : MonoBehaviour
+public class ObstacleCrush : MonoBehaviour
 {
+    public event Action ObstacleCrushs = delegate { };
+
     [SerializeField]
     private string _ignorePlayerColliizionLayer;
 
@@ -41,5 +43,7 @@ public class Obstacle_crush : MonoBehaviour
         {
             _elements[i].Enable();
         }
+
+        ObstacleCrushs();
     }
 }
