@@ -42,8 +42,9 @@ public class ObstacleCrush : MonoBehaviour
         for (int i = 0; i < _elements.Length; i++)
         {
             _elements[i].Enable();
+            ObstacleCrushs();
         }
 
-        ObstacleCrushs();
+        //ObstacleCrushs();
     }
 }

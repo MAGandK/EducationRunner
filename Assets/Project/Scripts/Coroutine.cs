@@ -50,11 +50,9 @@ public class Coroutine : MonoBehaviour
     {
         _startPosition = _object.transform.position;
 
-        enumerator = MoveCor(transform, _targetPos.position, _time);
+        enumerator = MoveCor(_object, _targetPos.position, _time);
 
         StartCoroutine(enumerator);
-
-
     }
 
     private IEnumerator MoveCor(Transform obj, Vector3 targetPosition, float executionTime) //время выполнения
