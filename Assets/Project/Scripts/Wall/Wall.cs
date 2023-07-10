@@ -5,7 +5,7 @@ using UnityEngine;
 public class Wall : MonoBehaviour
 {
     [SerializeField]
-    private string _ignorePlayerColliizionLayer;
+    private string _ignorePlayerCollisionLayer;
 
     private WallElements[] _elements;
 
@@ -15,11 +15,9 @@ public class Wall : MonoBehaviour
 
         for (int i = 0; i < _elements.Length; i++)
         {
-
-            _elements[i].Setup(LayerMask.NameToLayer(_ignorePlayerColliizionLayer));
+            _elements[i].Setup(LayerMask.NameToLayer(_ignorePlayerCollisionLayer)); // выдает цифру слоя по имени
             _elements[i].Disable();
- 
-        }
+         }
     }
 
     private void Update()

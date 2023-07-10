@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
     private readonly string RunAnimationKey = "IsRun";
     private readonly string DiedAnimationKey = "Died";
     private readonly string DancedAnimationKey = "Danced";
+    private readonly string HitAnimationKey = "IsHit";
 
     [SerializeField]
     private float _speed = 1f;
@@ -135,6 +136,12 @@ public class PlayerController : MonoBehaviour
         {
             Die();
         }
+    }
 
+    public void Hit()
+    {
+        _isDied = false;
+
+        _animator.SetTrigger(HitAnimationKey);
     }
 }

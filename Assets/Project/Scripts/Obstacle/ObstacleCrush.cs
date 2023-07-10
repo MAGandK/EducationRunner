@@ -8,7 +8,7 @@ public class ObstacleCrush : MonoBehaviour
     public event Action ObstacleCrushs = delegate { };
 
     [SerializeField]
-    private string _ignorePlayerColliizionLayer;
+    private string _ignorePlayerCollisionObstacleLayer;
 
     private ObstacleElementas[] _elements;
 
@@ -18,10 +18,8 @@ public class ObstacleCrush : MonoBehaviour
 
         for (int i = 0; i < _elements.Length; i++)
         {
-
-            _elements[i].Setup(LayerMask.NameToLayer(_ignorePlayerColliizionLayer));
+            _elements[i].Setup(LayerMask.NameToLayer(_ignorePlayerCollisionObstacleLayer));
             _elements[i].Disable();
-
         }
     }
 
@@ -42,9 +40,8 @@ public class ObstacleCrush : MonoBehaviour
         for (int i = 0; i < _elements.Length; i++)
         {
             _elements[i].Enable();
-            ObstacleCrushs();
         }
 
-        //ObstacleCrushs();
+        ObstacleCrushs();
     }
 }

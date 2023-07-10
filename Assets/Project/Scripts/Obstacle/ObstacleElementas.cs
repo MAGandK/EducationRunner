@@ -8,7 +8,7 @@ public class ObstacleElementas : MonoBehaviour
 
     private Rigidbody _rb;
 
-    private int _ignorePlayerLayer;
+    private int _ignorePlayerObstacleLayer;
 
     private void Awake()
     {
@@ -17,7 +17,7 @@ public class ObstacleElementas : MonoBehaviour
 
     public void Setup(int layer)
     {
-        _ignorePlayerLayer = layer;
+        _ignorePlayerObstacleLayer = layer;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -26,7 +26,7 @@ public class ObstacleElementas : MonoBehaviour
         {
             var direction = (collision.contacts[0].point - playerController.transform.position).normalized;
             _rb.AddForce(direction * _force, ForceMode.Impulse);
-            gameObject.layer = _ignorePlayerLayer;
+            gameObject.layer = _ignorePlayerObstacleLayer;
         }
     }
 
