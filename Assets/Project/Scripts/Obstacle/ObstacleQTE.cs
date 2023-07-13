@@ -26,10 +26,9 @@ public class ObstacleQTE : MonoBehaviour
     {
         if (other.TryGetComponent(out PlayerController player))
         {
-            Time.timeScale = 0.5f;
+            Time.timeScale = 0.7f;
             _isInteracted = true;
             ObstacleQTEs();
-            player.Hit();
         }
     }
 

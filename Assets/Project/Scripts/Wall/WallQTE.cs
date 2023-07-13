@@ -29,7 +29,6 @@ public class WallQTE : MonoBehaviour
             Time.timeScale = 0.3f;
             _isInteracted = true;
             WallQTEs();
-            player.Hit();
         }
     }
 

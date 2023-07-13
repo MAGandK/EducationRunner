@@ -31,6 +31,7 @@ public class ObstacleKillCollider : MonoBehaviour
             else
             {
                 _obstacle.Push();
+                playerController.Hit();
             }
         }
     }

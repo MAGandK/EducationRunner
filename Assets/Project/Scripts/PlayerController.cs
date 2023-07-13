@@ -24,8 +24,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField, Range(0f,1f)]
     private float _swipeSensivity;
     [SerializeField]
-    private int _hpPlayer = 5;
-    [SerializeField]
     private GameObject effectDaied;
     
     private float _moveX; // ограничение по ширине от -0.4 до 0.4
@@ -122,20 +120,6 @@ public class PlayerController : MonoBehaviour
         _uIController.ShowWindow(WindowType.FailWindow);
 
         _animator.SetTrigger(DiedAnimationKey);
-    }
-
-    public void Damage()
-    {
-        _isDied = false;
-
-        _hpPlayer --;
-
-        Debug.Log(_hpPlayer);
-
-        if (_hpPlayer <=0)
-        {
-            Die();
-        }
     }
 
     public void Hit()

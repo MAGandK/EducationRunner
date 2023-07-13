@@ -31,6 +31,7 @@ public class WallKillPlayer : MonoBehaviour
             else
             {
                 _wall.Push();
+                playerController.Hit();
             }
         }
     }

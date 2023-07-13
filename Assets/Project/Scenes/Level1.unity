@@ -1035,8 +1035,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.071976, y: 5.315773, z: 0.99014664}
-  m_Center: {x: 0.15757084, y: 2.1578865, z: 0.01836586}
+  m_Size: {x: 10.071976, y: 4.1226244, z: 1.2764435}
+  m_Center: {x: 0.15757084, y: 2.2703571, z: -0.12478256}
 --- !u!114 &193866128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e213563b2f21941a3831c374e142988f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ignorePlayerCollisionLayer: IgnorePlayerCollison
+  _ignorePlayerCollisionLayer: IgnorePlayerCollision
 --- !u!1001 &200847604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1701,6 +1701,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 906826833}
     m_Modifications:
+    - target: {fileID: -9198016497703497399, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8925245737527282666, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1757,9 +1765,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8153978806185273102, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7843314955684799148, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3314987875485261561, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -2713921078187358484, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 380485138777536342, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
       propertyPath: m_Name
       value: obstacle_crush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699762871460849735, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533043271316582973, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896230739588089395, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763591201599547896, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002687765607941345, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
@@ -1856,6 +1904,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1674026245}
     m_Modifications:
+    - target: {fileID: -9198016497703497399, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8925245737527282666, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1912,9 +1968,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8153978806185273102, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7843314955684799148, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3314987875485261561, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -2713921078187358484, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 380485138777536342, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
       propertyPath: m_Name
       value: obstacle_crush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699762871460849735, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533043271316582973, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896230739588089395, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763591201599547896, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002687765607941345, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
@@ -2544,6 +2640,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1268840164}
     m_Modifications:
+    - target: {fileID: -9198016497703497399, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8925245737527282666, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2600,9 +2704,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8153978806185273102, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7843314955684799148, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3314987875485261561, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -2713921078187358484, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 380485138777536342, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
       propertyPath: m_Name
       value: obstacle_crush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699762871460849735, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533043271316582973, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896230739588089395, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763591201599547896, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002687765607941345, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
@@ -3425,8 +3569,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.856576, y: 3.964332, z: 3.529883}
-  m_Center: {x: 0.016675472, y: 1.482166, z: -1.2649415}
+  m_Size: {x: 10.856576, y: 3.964332, z: 2.0527334}
+  m_Center: {x: 0.016675472, y: 1.482166, z: -0.5263667}
 --- !u!1 &323726849
 GameObject:
   m_ObjectHideFlags: 0
@@ -3817,7 +3961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c17f6a63fdc7a41d0bf140939e0e12af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1987900726}
+  target: {fileID: 543450651720520414}
   offset: {x: 0, y: 13, z: -13}
   smoothTime: 0.4
 --- !u!114 &433675291
@@ -3897,8 +4041,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.636135, y: 5.342464, z: 1.2003517}
-  m_Center: {x: 0.41117096, y: 2.1027925, z: 10.88978}
+  m_Size: {x: 10.067892, y: 4.270463, z: 1.2003517}
+  m_Center: {x: 0.2670982, y: 2.047698, z: 10.88978}
 --- !u!114 &452042194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6335,7 +6479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a44f6a645790435f9e6765e31196d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ignorePlayerCollisionObstacleLayer: IgnorePlayerCollisonObstacle
+  _ignorePlayerCollisionObstacleLayer: 
 --- !u!1 &911051665
 GameObject:
   m_ObjectHideFlags: 0
@@ -6634,6 +6778,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1174321749}
     m_Modifications:
+    - target: {fileID: -9198016497703497399, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8925245737527282666, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6690,9 +6842,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8153978806185273102, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7843314955684799148, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3314987875485261561, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -2713921078187358484, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 380485138777536342, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
       propertyPath: m_Name
       value: obstacle_crush
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699762871460849735, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533043271316582973, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3896230739588089395, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5763591201599547896, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002687765607941345, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9978b2ea54a9c44e6900ea87bb5cfa0c, type: 3}
@@ -8286,7 +8478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a44f6a645790435f9e6765e31196d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ignorePlayerCollisionObstacleLayer: IgnorePlayerCollisonObstacle
+  _ignorePlayerCollisionObstacleLayer: 
 --- !u!114 &1174321751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8825,7 +9017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a44f6a645790435f9e6765e31196d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ignorePlayerCollisionObstacleLayer: IgnorePlayerCollisonObstacle
+  _ignorePlayerCollisionObstacleLayer: 
 --- !u!114 &1268840166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8986,8 +9178,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.5599384, y: 4.6086354, z: 3.6349592}
-  m_Center: {x: 0.6232239, y: 1.8043182, z: -0.23328447}
+  m_Size: {x: 3.887475, y: 4.0327797, z: 3.7057755}
+  m_Center: {x: 0.6054573, y: 2.092246, z: -0.53441846}
 --- !u!1 &1379786595
 GameObject:
   m_ObjectHideFlags: 0
@@ -10397,7 +10589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a44f6a645790435f9e6765e31196d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ignorePlayerCollisionObstacleLayer: IgnorePlayerCollisonObstacle
+  _ignorePlayerCollisionObstacleLayer: 
 --- !u!114 &1674026247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11864,7 +12056,7 @@ Transform:
   m_LocalPosition: {x: -0, y: 0, z: -50.34}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
-  - {fileID: 1987900726}
+  - {fileID: 543450651720520414}
   m_Father: {fileID: 1229673231}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11897,14 +12089,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 4
-  _forwardSpeed: 8
+  _forwardSpeed: 15
   _rigidbody: {fileID: 1890790830}
   _jumpForce: {x: 0, y: 2, z: 0}
   _uIController: {fileID: 1204841692}
-  _animator: {fileID: 1987900728}
+  _animator: {fileID: 919132147786303589}
   _joystick: {fileID: 1139248710}
   _swipeSensivity: 0.338
-  _hpPlayer: 5
   effectDaied: {fileID: 100004, guid: e463141fb849fa84eba84b8688640df4, type: 3}
 --- !u!1 &1897199019
 GameObject:
@@ -12433,448 +12624,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4efd0b4efc3e4fe8afc21a47adb6f75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1987900725
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1890790829}
-    m_Modifications:
-    - target: {fileID: -9075884616200012955, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8970776828658062035, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8963833485684165950, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8957769638315860254, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8729138292645135721, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8714606754690732830, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.50722
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7407379755028158295, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -7184198871046171347, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -6950090982271044151, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -6822971379927533978, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -6720534521585048188, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -6095833910570338706, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -6030246597075017065, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -5823914848657651933, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -5767429626949456217, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -5695125353814631493, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -5570283316510920809, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -5553435890276471814, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -5256668251448595918, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -5077911536277493044, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -4903725166924858178, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -4857152255390394741, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -4784101759453662476, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -4524733511699871244, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -4474898842365201359, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -4181495567156716358, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -4144837457074490585, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -4092073055914303414, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -3713531783909384975, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -3533441688445527980, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -3458988883393058261, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8da6435bffa5d44859f3c13361716348, type: 2}
-    - target: {fileID: -3283195215374516229, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -2922431867935371894, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -2737205237262953940, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -2465865997824491534, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -1951316483392322401, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -1748491498066314109, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -1484826576879890234, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -1436824749842803413, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -1130464790858047395, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -638574671345391814, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: -370864884919651361, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 230467594729750732, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 350533962229671791, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 533974510519951167, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 644097679924796031, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 662927240901077689, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Name
-      value: main_character_taking_damage
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 991997439649609043, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1108735786796989109, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1769703399900282106, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1770012428764566147, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1927665475573415009, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2440217950073859763, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2745817749452565828, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2795418117797464872, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2921872008290506522, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3002540983956559581, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3279153754609046938, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3292541521320515407, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3527682121198810847, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731559654160598685, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763881731783109527, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4149408599342374180, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4222783441106050198, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4775785949851207463, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4957680481512075415, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5215786717080262235, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5344760149657202053, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5429252267601493079, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5557170851063134309, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5886496112821818504, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6075781092772976279, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6290242314844901086, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6544434724443446332, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692460849400441308, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7181068232349204345, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7212031749250830504, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7286451544114326804, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432676040466229791, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7549139442174913239, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8161458464001983975, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8196439936131954676, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8366581399730555484, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 9215746340435785029, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
---- !u!4 &1987900726 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-  m_PrefabInstance: {fileID: 1987900725}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1987900727 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-  m_PrefabInstance: {fileID: 1987900725}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1987900728
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1987900727}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
-  m_Controller: {fileID: 9100000, guid: 3fedaa718d04244d288fd9760449bff4, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1988244741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13634,6 +13383,842 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8810585392896248162, guid: 7489afcd8eed28d43948ce624f33016a, type: 3}
   m_PrefabInstance: {fileID: 2140169033}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &27247979400046498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6692460849770274025}
+  m_LocalRotation: {x: 0.0029988142, y: -0, z: -0, w: 0.9999955}
+  m_LocalPosition: {x: -0.08684204, y: 4.7887025e-13, z: 1.4466649e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1063560882970850956}
+  m_Father: {fileID: 4751144975248590564}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &27830520489026575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4149408597362354193}
+  m_LocalRotation: {x: -0.0137274815, y: -0.0132727735, z: 0.011170916, w: 0.99975526}
+  m_LocalPosition: {x: 0.14075059, y: 8.953948e-16, z: 4.6185276e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3058228911389626091}
+  m_Father: {fileID: 2359577440845144234}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &147487421956345424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5204122520589404280}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:HeadEnd_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &230467593359062521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7315922977474639389}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:PinkyFinger3_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &252595206962747416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5036115295669069056}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:geo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &259538549801994231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4751144975248590564}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Shoulder_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &265602397292440535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8868383641793821087}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:IndexFinger1_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &350533964069605978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2653203898916841830}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:IndexFinger3_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &494233743844478882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2176121503240857797}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:RingFinger4_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &508765283466123735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8398645903567308498}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Root_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &533974508677851658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2931544338091272984}
+  - component: {fileID: 1646593136717832290}
+  - component: {fileID: 5764383152150159134}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:peaked_cap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &543450651720520414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147786303588}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.50722, y: 0, z: -3.9}
+  m_LocalScale: {x: 19, y: 19, z: 19}
+  m_Children:
+  - {fileID: 5036115295669069056}
+  - {fileID: 2498506159550549459}
+  m_Father: {fileID: 1890790829}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &547008686934165865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3455942410211810194}
+  m_LocalRotation: {x: -0.0137274815, y: -0.0132727735, z: 0.011170916, w: 0.99975526}
+  m_LocalPosition: {x: -0.14075059, y: 3.3417713e-16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3683195656375517764}
+  m_Father: {fileID: 7118524201496373351}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &555414607411813098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7212031749546812829}
+  m_LocalRotation: {x: 0.00043003, y: -0.37086216, z: -0.00017929617, w: 0.9286878}
+  m_LocalPosition: {x: 0.078700595, y: 2.1316282e-16, z: 2.0605739e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 832884031929696576}
+  m_Father: {fileID: 1591203836734274646}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &644097678555148106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2568890147831232237}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Spine1_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &662927241267273612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8148104370440756069}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:MiddleFinger4_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &715076935677446232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2745817747478403185}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4154365700084598045}
+  m_Father: {fileID: 2498506159550549459}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &832884031929696576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5557170851834039632}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.07607319, y: 1.2789769e-15, z: -1.847411e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 555414607411813098}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &848188721548097065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653088721657928354}
+  m_LocalRotation: {x: 0.07656689, y: -0.026954222, z: -0.08181133, w: 0.9933368}
+  m_LocalPosition: {x: -0.07168251, y: 8.5265126e-16, z: -3.5527135e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4205577518635423489}
+  m_Father: {fileID: 2407337540501609348}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &910407754826985886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127538124307055451}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.06454996, y: -5.32907e-16, z: 7.105427e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9097517301751389012}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &918249027702144964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4439270279307167681}
+  m_LocalRotation: {x: 0.031255264, y: -0.35282013, z: -0.08942506, w: 0.9308836}
+  m_LocalPosition: {x: -0.12504414, y: 1.0658141e-16, z: 1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9097517301751389012}
+  m_Father: {fileID: 7262529847304488541}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &919132147786303588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543450651720520414}
+  - component: {fileID: 919132147786303589}
+  m_Layer: 6
+  m_Name: main_character_taking_damage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &919132147786303589
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147786303588}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
+  m_Controller: {fileID: 9100000, guid: 3fedaa718d04244d288fd9760449bff4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &991997438402592870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4759788559919702893}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:IndexFinger4_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1020594757505756674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3763881731958988450}
+  m_LocalRotation: {x: 0.0026862693, y: 0.00006569927, z: -0.024450036, w: 0.99969745}
+  m_LocalPosition: {x: 0.08684204, y: -4.8068217e-13, z: -1.3862689e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5528884110771582352}
+  m_Father: {fileID: 4316987424307142431}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1063560882970850956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292541522166440570}
+  m_LocalRotation: {x: 0.0029988142, y: -0, z: -0, w: 0.9999955}
+  m_LocalPosition: {x: -0.08684204, y: 4.7965185e-13, z: 1.41398e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1092260639871650337}
+  m_Father: {fileID: 27247979400046498}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1092260639871650337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5041876470603721103}
+  m_LocalRotation: {x: 0.0029979171, y: 0.00007332137, z: -0.024450015, w: 0.99969655}
+  m_LocalPosition: {x: -0.08684204, y: 4.806111e-13, z: 1.3898216e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2308997178048880941}
+  m_Father: {fileID: 1063560882970850956}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1108735785553678208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7118524201496373351}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Knee_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1287956509859459251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6290242313395043307}
+  m_LocalRotation: {x: 0.023087244, y: -0.37915465, z: -0.0835172, w: 0.9212674}
+  m_LocalPosition: {x: -0.051217627, y: -3.1974422e-16, z: 6.3948843e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8818981219334286551}
+  m_Father: {fileID: 4003466773143252660}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1296672122019459678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4957680483419211170}
+  m_LocalRotation: {x: -0.017791618, y: -0.7899902, z: -0.15773332, w: 0.5922155}
+  m_LocalPosition: {x: -0.14841174, y: -0.041182164, z: -0.23055875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4751144975248590564}
+  m_Father: {fileID: 5234088847435996469}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1556837045034069380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3669936147352952527}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.11481321, y: -2.8510528e-15, z: 3.907985e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3683195656375517764}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1591203836734274646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7474880540090010038}
+  m_LocalRotation: {x: 0.0002866757, y: -0.4464618, z: -0.00012982966, w: 0.89480263}
+  m_LocalPosition: {x: 0.105068, y: 0, z: -7.105427e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 555414607411813098}
+  m_Father: {fileID: 6477712013079072840}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1613430917199092948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5509840254783826372}
+  m_LocalRotation: {x: 0, y: 0, z: -0.78717965, w: 0.6167238}
+  m_LocalPosition: {x: 0.10473644, y: 0.07288771, z: -1.5417766e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4964129870800324609}
+  m_Father: {fileID: 6722122703248764287}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1646593136717832290
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533974508677851658}
+  m_Mesh: {fileID: 573138530167753606, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
+--- !u!4 &1684140909163247667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815992281125920156}
+  m_LocalRotation: {x: -0.4797528, y: 0.5194586, z: 0.4797528, w: 0.5194586}
+  m_LocalPosition: {x: -0.3077002, y: 0.0015670075, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6722122703248764287}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1769703400668629455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8191482465620308615}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:EyeEnd_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1770012430214440886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4205577518635423489}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ThumbFinger4_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1815992281125920156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1684140909163247667}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:locator_peaked_cap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1896740090742481965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3731559655463252904}
+  m_LocalRotation: {x: 0.002461332, y: -0.43881747, z: -0.0000038793373, w: 0.89857286}
+  m_LocalPosition: {x: 0.07005723, y: 3.5527136e-17, z: -8.348877e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7315922977474639389}
+  m_Father: {fileID: 6106494983874597427}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1927665474194803028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6563214485292687163}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:RingFinger3_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2039173165983932440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5059612680420285875}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:MiddleFinger3_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2176121503240857797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494233743844478882}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.06454996, y: 1.3855583e-15, z: 1.7053025e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6563214485292687163}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2273281055360958716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3058228911389626091}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Toes_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2308997178048880941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3966703787315945223}
+  m_LocalRotation: {x: 0.000067215675, y: 0.012601871, z: -0.011807098, w: 0.9998509}
+  m_LocalPosition: {x: -0.17528333, y: -5.684342e-16, z: 1.1382895e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8868383641793821087}
+  - {fileID: 6274169308785309549}
+  - {fileID: 3549158126307461287}
+  - {fileID: 7262529847304488541}
+  - {fileID: 7198979590179289462}
+  m_Father: {fileID: 1092260639871650337}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2359577440845144234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4222783442489436579}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0000038482667, w: 1}
+  m_LocalPosition: {x: 0.28749108, y: 3.719247e-17, z: -7.4606985e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 27830520489026575}
+  m_Father: {fileID: 8789327311283694272}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2400400655081522003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4625031410440520203}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Cheff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2407337540501609348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6544434724613531913}
+  m_LocalRotation: {x: 0.039148778, y: 0.2931369, z: 0.010994877, w: 0.9552054}
+  m_LocalPosition: {x: -0.07919331, y: 2.8238328e-10, z: 3.7006256e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 848188721548097065}
+  m_Father: {fileID: 7198979590179289462}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2440217948297878406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3683195656375517764}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Toes_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2498506159550549459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4775785950759498258}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3256125735538249313}
+  - {fileID: 715076935677446232}
+  m_Father: {fileID: 543450651720520414}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2502837516043849905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4453800322009101444}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Neck_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2568890147831232237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644097678555148106}
+  m_LocalRotation: {x: 0, y: -0, z: -0.04432061, w: 0.99901736}
+  m_LocalPosition: {x: -0.19680876, y: -4.6629366e-17, z: -1.05863455e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5234088847435996469}
+  m_Father: {fileID: 8398645903567308498}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2653203898916841830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350533964069605978}
+  m_LocalRotation: {x: -0.01283059, y: -0.39964446, z: 0.006183355, w: 0.9165596}
+  m_LocalPosition: {x: 0.051217627, y: 4.6185276e-16, z: 1.9895197e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4759788559919702893}
+  m_Father: {fileID: 8801240994848788776}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2745817747478403185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 715076935677446232}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2795418118510263837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6274169308785309549}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:MiddleFinger1_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1001 &2824308571877254746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15028,6 +15613,1365 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5271735945225928321, guid: d2a05edd7ce17498fa70807f6ea22486, type: 3}
   m_PrefabInstance: {fileID: 2824308571877254746}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2921872007449338415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7198979590179289462}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ThumbFinger1_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2931544338091272984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533974508677851658}
+  m_LocalRotation: {x: -0.4797528, y: 0.5194586, z: 0.4797528, w: 0.5194586}
+  m_LocalPosition: {x: -0.18805066, y: 0.046350732, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6722122703248764287}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3002540982579536872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4003466773143252660}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:IndexFinger2_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3058228911389626091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2273281055360958716}
+  m_LocalRotation: {x: 0.0041027865, y: 0.005889896, z: -0.58046335, w: 0.81425476}
+  m_LocalPosition: {x: 0.11764286, y: -0.123411916, z: 1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5723945643506455621}
+  m_Father: {fileID: 27830520489026575}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3127538124307055451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 910407754826985886}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:RingFinger4_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3193125438535309218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9042950574793547418}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:PinkyFinger3_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3256125735538249313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6486166799361943321}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2498506159550549459}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3279153753833382063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6722122703248764287}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Head_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3284945659156851419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5886496112110117309}
+  m_LocalRotation: {x: -0.0071837907, y: -0.49856195, z: -0.043120287, w: 0.86575115}
+  m_LocalPosition: {x: 0.15555878, y: 0.0049058944, z: -0.048286248}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5653454595714291482}
+  m_Father: {fileID: 3506939968543908076}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3292541522166440570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1063560882970850956}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ShoulderPart2_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3399457188503073302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9195363338788728922}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:IndexFinger1_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3455942410211810194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547008686934165865}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Ankle_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3506939968543908076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8584797365672186383}
+  m_LocalRotation: {x: 0.7899902, y: -0.017791646, z: 0.5922155, w: 0.15773334}
+  m_LocalPosition: {x: -0.14841174, y: -0.041182164, z: 0.23055875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3284945659156851419}
+  m_Father: {fileID: 5234088847435996469}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3527682119896777706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5653454595714291482}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ShoulderPart1_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3528246683751296654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6408420716436425297}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:RingFinger2_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3549158126307461287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5429252269375883618}
+  m_LocalRotation: {x: 0.13810554, y: -0.7658104, z: 0.15834273, w: 0.6077737}
+  m_LocalPosition: {x: -0.21893333, y: -0.17735225, z: -0.068557404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4354721647183400194}
+  m_Father: {fileID: 2308997178048880941}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &3628957583974901360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5078534581555791378}
+  m_LocalRotation: {x: 0.04988878, y: 0.99863094, z: -0.0045549036, w: -0.015053391}
+  m_LocalPosition: {x: 0.040381964, y: 0.049822114, z: -0.19019647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7118524201496373351}
+  m_Father: {fileID: 8398645903567308498}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3653088721657928354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 848188721548097065}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ThumbFinger3_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3669936147352952527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1556837045034069380}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ToesEnd_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3683195656375517764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2440217948297878406}
+  m_LocalRotation: {x: 0.0041027865, y: 0.005889896, z: -0.58046335, w: 0.81425476}
+  m_LocalPosition: {x: -0.11764286, y: 0.123411916, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1556837045034069380}
+  m_Father: {fileID: 547008686934165865}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3731559655463252904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1896740090742481965}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:PinkyFinger2_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3763881731958988450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1020594757505756674}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Elbow_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3966703787315945223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2308997178048880941}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Wrist_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3987947535019290064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5940176821242432206}
+  m_LocalRotation: {x: 0.040846523, y: -0.42493185, z: -0.08754862, w: 0.9000554}
+  m_LocalPosition: {x: -0.105068, y: -7.238654e-16, z: 1.025846e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5059612680420285875}
+  m_Father: {fileID: 6274169308785309549}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4003466773143252660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002540982579536872}
+  m_LocalRotation: {x: 0.052638732, y: -0.45583865, z: -0.055339683, w: 0.8867795}
+  m_LocalPosition: {x: -0.1025541, y: -2.7755576e-16, z: -6.750156e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1287956509859459251}
+  m_Father: {fileID: 8868383641793821087}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4145460501816451065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5723945643506455621}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ToesEnd_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4149408597362354193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27830520489026575}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Ankle_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4154365700084598045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7272055553771549098}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8398645903567308498}
+  m_Father: {fileID: 715076935677446232}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4205577518635423489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770012430214440886}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.07961172, y: 1.4210854e-16, z: 1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 848188721548097065}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4222783442489436579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2359577440845144234}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Knee_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4316987424307142431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738545458607236595}
+  m_LocalRotation: {x: 0.0026870735, y: -0, z: -0, w: 0.9999964}
+  m_LocalPosition: {x: 0.08684204, y: -4.799361e-13, z: -1.4097168e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1020594757505756674}
+  m_Father: {fileID: 5653454595714291482}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4319646871236643211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5234088847435996469}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Chest_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4354721647183400194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7181068233262811724}
+  m_LocalRotation: {x: 0.042261064, y: -0.4170344, z: -0.087718606, w: 0.90366024}
+  m_LocalPosition: {x: -0.07005723, y: -4.973799e-16, z: 1.7763567e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9042950574793547418}
+  m_Father: {fileID: 3549158126307461287}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4366219783302751166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6264495119143226288}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ThumbFinger3_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4439270279307167681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 918249027702144964}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:RingFinger2_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4453800322009101444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2502837516043849905}
+  m_LocalRotation: {x: 0, y: -0, z: -0.17791973, w: 0.984045}
+  m_LocalPosition: {x: -0.27001196, y: -6.661338e-16, z: 6.6283473e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6722122703248764287}
+  m_Father: {fileID: 5234088847435996469}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4559412131766871108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5689930347573751137}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.057550687, y: -3.5527135e-16, z: 9.947598e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9042950574793547418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4592418988185998057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7549139441403895778}
+  m_LocalRotation: {x: 0.00091231195, y: -0.41613623, z: 0.07184578, w: 0.90645903}
+  m_LocalPosition: {x: 0.07919331, y: -2.82384e-10, z: -3.7006323e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6264495119143226288}
+  m_Father: {fileID: 5820206327222658113}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4625031410440520203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2400400655081522003}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5978590595043964528}
+  m_Father: {fileID: 5036115295669069056}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4635475673182316132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7432676041848987434}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.07961172, y: -9.947598e-16, z: 2.1316282e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6264495119143226288}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4698638526528240833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6584879436765962696}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:PinkyFinger4_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4748473194665410820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7262529847304488541}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:RingFinger1_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4751144975248590564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259538549801994231}
+  m_LocalRotation: {x: -0.006293006, y: -0.45562914, z: -0.04316395, w: 0.8891003}
+  m_LocalPosition: {x: -0.2000924, y: 2.0676793e-14, z: 2.728484e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 27247979400046498}
+  m_Father: {fileID: 1296672122019459678}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4759788559919702893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991997438402592870}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0678736, y: 2.9842794e-15, z: 1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2653203898916841830}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4775785950759498258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2498506159550549459}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4957680483419211170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296672122019459678}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Scapula_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4964129870800324609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8092907247302940008}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.13567302, y: 2.5579537e-15, z: -2.0434621e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1613430917199092948}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &5036115295669069056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252595206962747416}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4625031410440520203}
+  m_Father: {fileID: 543450651720520414}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5041876470603721103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1092260639871650337}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Elbow_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5059612680420285875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039173165983932440}
+  m_LocalRotation: {x: 0.03361438, y: -0.34895635, z: -0.09065197, w: 0.9321383}
+  m_LocalPosition: {x: -0.078700595, y: -1.7763568e-17, z: -3.0553336e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8148104370440756069}
+  m_Father: {fileID: 3987947535019290064}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5078534581555791378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3628957583974901360}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Hip_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5131298982852236671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6084480185573281385}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Eye_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5204122520589404280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147487421956345424}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.30585986, y: 4.973799e-16, z: -2.423977e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6722122703248764287}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5215786715099816814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5528884110771582352}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Wrist_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5234088847435996469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4319646871236643211}
+  m_LocalRotation: {x: 0, y: 0, z: 0.061758403, w: 0.99809116}
+  m_LocalPosition: {x: -0.26114625, y: 1.1546319e-16, z: 1.7172295e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4453800322009101444}
+  - {fileID: 3506939968543908076}
+  - {fileID: 1296672122019459678}
+  m_Father: {fileID: 2568890147831232237}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &5305775961485207008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7786547287787675678}
+  m_LocalRotation: {x: -0.0411095, y: -0.024691198, z: -0.5806171, w: 0.8127633}
+  m_LocalPosition: {x: -0.07245808, y: 0.10966721, z: -0.10356107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8191482465620308615}
+  m_Father: {fileID: 6722122703248764287}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5344760148945000624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7518147774831116741}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:EyeEnd_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5429252269375883618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3549158126307461287}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:PinkyFinger1_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5509840254783826372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613430917199092948}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Jaw_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5528884110771582352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215786715099816814}
+  m_LocalRotation: {x: 0.000067215675, y: 0.012601871, z: -0.011807098, w: 0.9998509}
+  m_LocalPosition: {x: 0.17528333, y: 7.105427e-17, z: -1.13544726e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9195363338788728922}
+  - {fileID: 6477712013079072840}
+  - {fileID: 6106494983874597427}
+  - {fileID: 8741733091177743494}
+  - {fileID: 5820206327222658113}
+  m_Father: {fileID: 1020594757505756674}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5557170851834039632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832884031929696576}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:MiddleFinger4_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5653454595714291482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527682119896777706}
+  m_LocalRotation: {x: 0.0026870735, y: -0, z: -0, w: 0.9999964}
+  m_LocalPosition: {x: 0.08684204, y: -4.7919e-13, z: -1.4381385e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4316987424307142431}
+  m_Father: {fileID: 3284945659156851419}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5689930347573751137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4559412131766871108}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:PinkyFinger4_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5723945643506455621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4145460501816451065}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.11481321, y: 2.380318e-15, z: -4.2632563e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3058228911389626091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &5764383152150159134
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533974508677851658}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8da6435bffa5d44859f3c13361716348, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &5820206327222658113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8852507152775792362}
+  m_LocalRotation: {x: -0.45499086, y: -0.011994909, z: -0.36261448, w: 0.8132344}
+  m_LocalPosition: {x: 0.13900408, y: -0.13530758, z: 0.036508195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4592418988185998057}
+  m_Father: {fileID: 5528884110771582352}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5886496112110117309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3284945659156851419}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Shoulder_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5940176821242432206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3987947535019290064}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:MiddleFinger2_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5978590595043964528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8161458463223673042}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4625031410440520203}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6075781094550561698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6477712013079072840}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:MiddleFinger1_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6084480185573281385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5131298982852236671}
+  m_LocalRotation: {x: 0.0411095, y: 0.024691198, z: -0.5806171, w: 0.8127633}
+  m_LocalPosition: {x: -0.07245808, y: 0.10966721, z: 0.10356107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7518147774831116741}
+  m_Father: {fileID: 6722122703248764287}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &6106494983874597427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7286451542343489569}
+  m_LocalRotation: {x: 0.31847262, y: -0.5247209, z: -0.054931525, w: 0.7875441}
+  m_LocalPosition: {x: 0.21893333, y: 0.17735225, z: 0.068557404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1896740090742481965}
+  m_Father: {fileID: 5528884110771582352}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &6264495119143226288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4366219783302751166}
+  m_LocalRotation: {x: -0.0061712046, y: -0.45665714, z: -0.019195253, w: 0.88941425}
+  m_LocalPosition: {x: 0.07168251, y: 0, z: -3.5527135e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4635475673182316132}
+  m_Father: {fileID: 4592418988185998057}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &6274169308785309549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795418118510263837}
+  m_LocalRotation: {x: 0.05858128, y: -0.5527688, z: -0.12683877, w: 0.8215393}
+  m_LocalPosition: {x: -0.2631277, y: 2.1316282e-16, z: 1.7053025e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3987947535019290064}
+  m_Father: {fileID: 2308997178048880941}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6290242313395043307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287956509859459251}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:IndexFinger3_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6300940169618045119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9097517301751389012}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:RingFinger3_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6408420716436425297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3528246683751296654}
+  m_LocalRotation: {x: -0.0022667304, y: -0.37444937, z: 0.0009822504, w: 0.92724407}
+  m_LocalPosition: {x: 0.12504414, y: -4.2632563e-16, z: -1.2967404e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6563214485292687163}
+  m_Father: {fileID: 8741733091177743494}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &6477712013079072840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6075781094550561698}
+  m_LocalRotation: {x: 0.004555914, y: -0.5737948, z: -0.04682443, w: 0.81764686}
+  m_LocalPosition: {x: 0.2631277, y: 3.5527136e-17, z: -7.105427e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1591203836734274646}
+  m_Father: {fileID: 5528884110771582352}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6486166799361943321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3256125735538249313}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Geometry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6544434724613531913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2407337540501609348}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ThumbFinger2_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6563214485292687163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927665474194803028}
+  m_LocalRotation: {x: 0.0043658447, y: -0.45785844, z: -0.0023167185, w: 0.8890114}
+  m_LocalPosition: {x: 0.05803647, y: -4.4408918e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2176121503240857797}
+  m_Father: {fileID: 6408420716436425297}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &6584879436765962696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4698638526528240833}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.057550687, y: 9.237055e-16, z: -1.1368683e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7315922977474639389}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6692460849770274025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27247979400046498}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ShoulderPart1_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6722122703248764287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3279153753833382063}
+  m_LocalRotation: {x: 0, y: 0, z: 0.17484123, w: 0.98459667}
+  m_LocalPosition: {x: -0.34573916, y: 1.4210854e-16, z: -5.701132e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6084480185573281385}
+  - {fileID: 5305775961485207008}
+  - {fileID: 5204122520589404280}
+  - {fileID: 1684140909163247667}
+  - {fileID: 2931544338091272984}
+  - {fileID: 1613430917199092948}
+  m_Father: {fileID: 4453800322009101444}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6757506040801528519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8741733091177743494}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:RingFinger1_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7118524201496373351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108735785553678208}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0000038482667, w: 1}
+  m_LocalPosition: {x: -0.28749108, y: -1.8207657e-16, z: 6.750156e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 547008686934165865}
+  m_Father: {fileID: 3628957583974901360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7128872684705958620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15133,3 +17077,590 @@ PrefabInstance:
       objectReference: {fileID: 1204841692}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e2059d9276d844eb8c6b10645c81f60, type: 3}
+--- !u!1 &7181068233262811724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4354721647183400194}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:PinkyFinger2_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7198979590179289462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2921872007449338415}
+  m_LocalRotation: {x: -0.5362673, y: -0.23788404, z: -0.22940128, w: 0.7766619}
+  m_LocalPosition: {x: -0.050833505, y: 0.030646157, z: -0.03759704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2407337540501609348}
+  m_Father: {fileID: 2308997178048880941}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7212031749546812829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 555414607411813098}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:MiddleFinger3_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7262529847304488541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4748473194665410820}
+  m_LocalRotation: {x: 0.11756586, y: -0.7523004, z: 0.03156001, w: 0.64747703}
+  m_LocalPosition: {x: -0.24500778, y: -0.092555426, z: -0.029701957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 918249027702144964}
+  m_Father: {fileID: 2308997178048880941}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7272055553771549098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4154365700084598045}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:DeformationSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7286451542343489569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6106494983874597427}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:PinkyFinger1_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7315922977474639389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230467593359062521}
+  m_LocalRotation: {x: 0.017549334, y: -0.35568544, z: -0.0065023517, w: 0.9344183}
+  m_LocalPosition: {x: 0.045139488, y: -7.105427e-16, z: -7.105427e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6584879436765962696}
+  m_Father: {fileID: 1896740090742481965}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7432676041848987434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4635475673182316132}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ThumbFinger4_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7474880540090010038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591203836734274646}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:MiddleFinger2_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7518147774831116741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5344760148945000624}
+  m_LocalRotation: {x: -0.1386862, y: -0.0022722937, z: -0.00015833312, w: 0.9903338}
+  m_LocalPosition: {x: -0.054552503, y: 2.842171e-16, z: 3.5527136e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6084480185573281385}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7549139441403895778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4592418988185998057}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ThumbFinger2_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7738545458607236595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4316987424307142431}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ShoulderPart2_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7786547287787675678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5305775961485207008}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Eye_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!137 &8089881403783523709
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8161458463223673042}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8da6435bffa5d44859f3c13361716348, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -6012409895340657396, guid: 7c4d2e261f73b4930be86803eb255cc1, type: 3}
+  m_Bones:
+  - {fileID: 848188721548097065}
+  - {fileID: 2407337540501609348}
+  - {fileID: 2568890147831232237}
+  - {fileID: 8398645903567308498}
+  - {fileID: 3628957583974901360}
+  - {fileID: 7118524201496373351}
+  - {fileID: 547008686934165865}
+  - {fileID: 3683195656375517764}
+  - {fileID: 5234088847435996469}
+  - {fileID: 1063560882970850956}
+  - {fileID: 6274169308785309549}
+  - {fileID: 5059612680420285875}
+  - {fileID: 7198979590179289462}
+  - {fileID: 27247979400046498}
+  - {fileID: 1092260639871650337}
+  - {fileID: 4751144975248590564}
+  - {fileID: 1296672122019459678}
+  - {fileID: 2308997178048880941}
+  - {fileID: 3987947535019290064}
+  - {fileID: 7262529847304488541}
+  - {fileID: 9097517301751389012}
+  - {fileID: 8868383641793821087}
+  - {fileID: 4003466773143252660}
+  - {fileID: 1287956509859459251}
+  - {fileID: 918249027702144964}
+  - {fileID: 4354721647183400194}
+  - {fileID: 9042950574793547418}
+  - {fileID: 6722122703248764287}
+  - {fileID: 3549158126307461287}
+  - {fileID: 4453800322009101444}
+  - {fileID: 5653454595714291482}
+  - {fileID: 3506939968543908076}
+  - {fileID: 4316987424307142431}
+  - {fileID: 1020594757505756674}
+  - {fileID: 5528884110771582352}
+  - {fileID: 3284945659156851419}
+  - {fileID: 6477712013079072840}
+  - {fileID: 9195363338788728922}
+  - {fileID: 1591203836734274646}
+  - {fileID: 6264495119143226288}
+  - {fileID: 555414607411813098}
+  - {fileID: 5820206327222658113}
+  - {fileID: 4592418988185998057}
+  - {fileID: 6408420716436425297}
+  - {fileID: 2653203898916841830}
+  - {fileID: 8741733091177743494}
+  - {fileID: 7315922977474639389}
+  - {fileID: 8801240994848788776}
+  - {fileID: 6563214485292687163}
+  - {fileID: 1896740090742481965}
+  - {fileID: 2359577440845144234}
+  - {fileID: 6106494983874597427}
+  - {fileID: 8789327311283694272}
+  - {fileID: 27830520489026575}
+  - {fileID: 3058228911389626091}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 8398645903567308498}
+  m_AABB:
+    m_Center: {x: -0.40875816, y: 0.052517712, z: -0.025832623}
+    m_Extent: {x: 1.1628364, y: 0.60335386, z: 0.8977597}
+  m_DirtyAABB: 0
+--- !u!1 &8092907247302940008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4964129870800324609}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:JawEnd_M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8148104370440756069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662927241267273612}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.07607319, y: -2.842171e-16, z: 1.9042544e-14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5059612680420285875}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8161458463223673042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5978590595043964528}
+  - component: {fileID: 8089881403783523709}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:body1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8191482465620308615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769703400668629455}
+  m_LocalRotation: {x: 0.1386862, y: 0.0022722937, z: -0.00015833312, w: 0.9903338}
+  m_LocalPosition: {x: -0.054552503, y: 1.4210854e-15, z: 1.7763568e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5305775961485207008}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8196439934144643777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8789327311283694272}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Hip_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &8366581397882175337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8818981219334286551}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:IndexFinger4_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8398645903567308498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508765283466123735}
+  m_LocalRotation: {x: 0.4871497, y: -0.51252824, z: -0.4871497, w: 0.51252824}
+  m_LocalPosition: {x: -3.6096752e-17, y: 0.6318168, z: -0.027325826}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8789327311283694272}
+  - {fileID: 3628957583974901360}
+  - {fileID: 2568890147831232237}
+  m_Father: {fileID: 4154365700084598045}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8584797365672186383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3506939968543908076}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:Scapula_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8741733091177743494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6757506040801528519}
+  m_LocalRotation: {x: 0.21808915, y: -0.5599241, z: -0.06306733, w: 0.7968341}
+  m_LocalPosition: {x: 0.24500778, y: 0.092555426, z: 0.029701957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6408420716436425297}
+  m_Father: {fileID: 5528884110771582352}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &8789327311283694272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196439934144643777}
+  m_LocalRotation: {x: 0.99863094, y: -0.049888723, z: 0.015053347, w: -0.004554907}
+  m_LocalPosition: {x: 0.040381964, y: 0.049822114, z: 0.19019647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2359577440845144234}
+  m_Father: {fileID: 8398645903567308498}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &8801240994848788776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9215746340804034672}
+  m_LocalRotation: {x: 0.009702809, y: -0.47797856, z: 0.030472782, w: 0.87778914}
+  m_LocalPosition: {x: 0.1025541, y: -1.4210854e-15, z: -5.506706e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2653203898916841830}
+  m_Father: {fileID: 9195363338788728922}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &8818981219334286551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8366581397882175337}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0678736, y: -2.096101e-15, z: -1.9895197e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1287956509859459251}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8852507152775792362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5820206327222658113}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:ThumbFinger1_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8868383641793821087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265602397292440535}
+  m_LocalRotation: {x: -0.15126704, y: -0.44073454, z: -0.20675202, w: 0.86030513}
+  m_LocalPosition: {x: -0.22774018, y: 0.08455945, z: 0.0024388118}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4003466773143252660}
+  m_Father: {fileID: 2308997178048880941}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &9042950574793547418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193125438535309218}
+  m_LocalRotation: {x: 0.049308736, y: -0.33206356, z: -0.09708496, w: 0.9369509}
+  m_LocalPosition: {x: -0.045139488, y: 1.4210854e-16, z: 1.4210854e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4559412131766871108}
+  m_Father: {fileID: 4354721647183400194}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &9097517301751389012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6300940169618045119}
+  m_LocalRotation: {x: 0.04606675, y: -0.4359989, z: -0.08911008, w: 0.894339}
+  m_LocalPosition: {x: -0.05803647, y: -5.684342e-16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 910407754826985886}
+  m_Father: {fileID: 918249027702144964}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &9195363338788728922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3399457188503073302}
+  m_LocalRotation: {x: -0.116934255, y: -0.48912534, z: -0.31993505, w: 0.8029473}
+  m_LocalPosition: {x: 0.22774018, y: -0.08455945, z: -0.0024388118}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8801240994848788776}
+  m_Father: {fileID: 5528884110771582352}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9215746340804034672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8801240994848788776}
+  m_Layer: 6
+  m_Name: Godlike_Burger_cook_animation_001:Combine_08:IndexFinger2_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
