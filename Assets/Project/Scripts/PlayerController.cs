@@ -97,6 +97,8 @@ public class PlayerController : MonoBehaviour
         _uIController.ShowWindow(WindowType.FinishWindow);
 
         _animator.SetTrigger(DancedAnimationKey);
+
+
     }
 
     private void StartGame()
