@@ -6,6 +6,12 @@ public class PlayerController : MonoBehaviour
     private readonly string DiedAnimationKey = "Died";
     private readonly string DancedAnimationKey = "Danced";
     private readonly string HitAnimationKey = "IsHit";
+    private readonly string HitAnimationKeys = "IsHits";
+    //private string[] _keysHit =
+    //{
+    //    "1",
+    //    "2"
+    //};
 
     [SerializeField]
     private float _speed = 1f;
@@ -97,8 +103,6 @@ public class PlayerController : MonoBehaviour
         _uIController.ShowWindow(WindowType.FinishWindow);
 
         _animator.SetTrigger(DancedAnimationKey);
-
-
     }
 
     private void StartGame()
@@ -129,5 +133,8 @@ public class PlayerController : MonoBehaviour
         _isDied = false;
 
         _animator.SetTrigger(HitAnimationKey);
+
+        _animator.SetInteger(HitAnimationKeys, Random.Range(0, 2));
+
     }
 }
