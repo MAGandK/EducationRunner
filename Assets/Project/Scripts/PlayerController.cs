@@ -7,11 +7,6 @@ public class PlayerController : MonoBehaviour
     private readonly string DancedAnimationKey = "Danced";
     private readonly string HitAnimationKey = "IsHit";
     private readonly string HitAnimationKeys = "IsHits";
-    //private string[] _keysHit =
-    //{
-    //    "1",
-    //    "2"
-    //};
 
     [SerializeField]
     private float _speed = 1f;
@@ -31,7 +26,9 @@ public class PlayerController : MonoBehaviour
     private float _swipeSensivity;
     [SerializeField]
     private GameObject effectDaied;
-    
+
+    public Transform _targetTransform;
+
     private float _moveX; // ограничение по ширине от -0.4 до 0.4
     private float _moveZ;
     private bool _isFinished = false;
@@ -103,6 +100,12 @@ public class PlayerController : MonoBehaviour
         _uIController.ShowWindow(WindowType.FinishWindow);
 
         _animator.SetTrigger(DancedAnimationKey);
+
+        //var direction = _targetTransform.position - transform.position;
+        
+        //Quaternion targetRotation = Quaternion.LookRotation(direction);
+
+        //transform.rotation = targetRotation;
     }
 
     private void StartGame()
